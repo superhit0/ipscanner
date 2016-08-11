@@ -119,7 +119,6 @@ public class GUI extends Frame implements ActionListener {
             for (String line = in.readLine(); line != null; line = in.readLine())
                 out += "\n" + line;
             ipList.append(out);
-            System.out.println(out);
         } catch (IOException e) {
             e.printStackTrace();
         }
